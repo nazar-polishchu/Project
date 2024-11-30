@@ -1,4 +1,13 @@
 :root{
-    --text-color: #FFFFFF;
+    --text-color: #FDF5FF;
     --point-color:#FF6E30;
+    --title-color:#FFFFFF;
+    --grey-color:rgba(255, 255, 255, 0.55);
+    --background-color:#1E252B ;
+    --search-color:rgba(255, 255, 255, 0.38);
+    }
+
+    
+body{
+    background-color: var(--background-color);
 }
