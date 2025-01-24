@@ -1,0 +1,89 @@
+:root{
+    --hover-color-:#94CFFF;
+    --tytle-color: #FFFFFF;
+    --button-color: #26C6EA;
+    --text-color: #0A3853;
+    color: #000000;
+    color: #141414;
+}
+.container{
+    width: 1032px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+}
+
+/* head */
+.header{
+  background-color: purple;
+  padding-top: 39px;
+  padding-bottom: 39px;
+}
+.logo-avatar{
+    width: 186px;
+    height: 72px;
+}
+
+.head-adres{
+color: var(--tytle-color);
+font-family: 'Inter';
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.head-adres:hover{
+    color: var(--hover-color-);
+}
+
+.head-button{
+color: var(--button-color);
+font-family: 'HeadlandOne';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+
+.head-text{
+color: var(--tytle-color);
+font-family: "Hammersmith One";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* hero */
+
+.hero{
+    background-color: pink;
+    padding-top: 181px;
+    padding-bottom: 463px;
+}
+
+.hero-text{
+    color: #FFF;
+     font-family:"Inter";
+    font-size: 20px;
+     font-weight: 400;
+     
+    }
+
+    .hero-button{
+        color: #26C7EA;
+     text-align: center;
+     font-family: 'HeadlandOne';
+     font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+    .social-networks{
+        width: 30px;
+      height: 30px;
+     flex-shrink: 0;
+    }
