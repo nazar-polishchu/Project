@@ -17,13 +17,26 @@
 
 /* head */
 .header{
-  background-color: purple;
-  padding-top: 39px;
+  background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/head-fon.png);
+  background-repeat: no-repeat;
+ padding-top: 39px;
   padding-bottom: 39px;
 }
+
+.header .container{
+    display: flex;
+    align-items: center;
+}
+
 .logo-avatar{
     width: 186px;
     height: 72px;
+}
+
+.head-list{
+    display: flex;
+    gap: 38px;
+    margin-left: auto;
 }
 
 .head-adres{
@@ -33,6 +46,12 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+
+.index-list{
+    display: flex;
+    gap: 38px;
+    margin-left: auto;
 }
 
 .head-adres:hover{
@@ -46,6 +65,8 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 }
+
+
 
 .head-text{
 color: var(--text-color);
@@ -62,6 +83,9 @@ line-height: normal;
     background-color: pink;
     padding-top: 181px;
     padding-bottom: 463px;
+    background-image: url(../img/avatar.png);
+    background-repeat: no-repeat;
+ background-size: cover;
 }
 
 .hero-text{
@@ -121,6 +145,9 @@ flex-shrink: 0;
 .trailer{
     padding-top: 355px;
     padding-bottom: 356px;
+    background-image: url(../img/neitri.png);
+    background-repeat: no-repeat;
+ background-size: cover;
 }
 
 .trailer-button{
@@ -164,6 +191,9 @@ flex-shrink: 0;
 .language{
     padding-top: 58px;
     padding-bottom: 606px;
+    background-image:  url(../img/language-fon.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .language-title{
@@ -172,3 +202,101 @@ font-family: 'HeadlandOne';
 font-size: 32px;
 font-weight: 400;
 }
+
+.language-text{
+    color: var(--caption-color);
+    font-family: "HeadlandOne";
+font-size: 24px;
+font-weight: 400;
+}
+
+.language-img{
+    width: 152px;
+height: 40px;
+flex-shrink: 0;
+}
+
+.language-desc{
+    color: var(--subtitle-color);
+    font-family: "HeadlandOne";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+ /* .language-list{
+    background: rgba(255, 255, 255, 0.70);
+ } */
+
+
+ /* mother */
+
+ .mother{
+    padding-top: 75px;
+    padding-bottom: 231px;
+ }
+
+ .mother-title{
+    color: var(--caption-color);
+font-family: "Inter";
+font-size: 36px;
+font-weight: 400;
+}
+
+.mother-subtitle{
+    color: var(--subtitle-color);
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 400;
+}
+
+.mother-img{
+    width: 400px;
+height: 120px;
+flex-shrink: 0;
+}
+
+
+/* footer */
+
+.footer{
+    padding-top: 77px;
+    padding-bottom: 76px;
+    background-image: linear-gradient( rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/footer-fon.png);
+}
+
+
+
+
+.footer-logo{
+    width: 183px;
+height: 70px;
+flex-shrink: 0;
+}
+
+.footer-text{
+    color: var(--text-color);
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 400;
+}
+
+.foter-img{
+    stroke-width: 2px;
+stroke: var(--text-color);
+}
+
+.footer-adres{
+    color: var(--text-color);
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 400;
+}
+
+.footer-link{
+    color: var(--text-color);
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+}
+
+ 
