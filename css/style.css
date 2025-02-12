@@ -338,7 +338,7 @@ flex-shrink: 0;
 
  .mother{
     padding-top: 75px;
-    padding-bottom: 231px;
+    padding-bottom: 10px;
  }
 
  .mother .container{
@@ -421,7 +421,7 @@ font-weight: 400;
 font-family: 'Inter';
 font-size: 14px;
 font-weight: 400;
-
+  text-align: center;
 }
 
 .footer-item{
