@@ -7,12 +7,12 @@
     --caption-color: #141414;
 }
 .container{
-    width: 1032px;
-    padding-left: 24px;
-    padding-right: 24px;
+    width: 1080px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
 }
 
 /* head */
@@ -121,7 +121,7 @@ line-height: normal;
      font-family:"Inter";
     font-size: 20px;
      font-weight: 400;
-     padding-bottom: 42px;
+     margin-bottom: 42px;
      width: 298px;
     }
 
@@ -139,20 +139,26 @@ line-height: normal;
      padding: 25px 75px;
     }
 
-
+    
 
     
     .networks-list{
         display: flex;
         flex-direction: column;
          align-items: flex-end;        
-        
+        gap: 25px;
     }
 
+      .networks-item:nth-child(3){
+        .social-networks{
+            width: 50px;
+        }
+     }
     .social-networks{
         width: 30px;
       height: 30px;
      flex-shrink: 0;
+     
     }
 
     /* people */
@@ -176,6 +182,7 @@ font-family: 'Inter';
 font-size: 36px;
 font-weight: 400;
 text-align: center;
+margin-bottom: 16px;
 }
 
 .people-subtitle{
@@ -244,6 +251,7 @@ padding: 25px 25px 17px 18px;
  font-size: 36px;
      font-weight: 400;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .energy-subtitle{
@@ -300,12 +308,8 @@ height: 240px;
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
+justify-content: space-around;
 background: rgba(255, 255, 255, 0.70);
-
-
-
-
 
 }
 
@@ -351,6 +355,8 @@ font-family: "Inter";
 font-size: 36px;
 font-weight: 400;
 text-align: center;
+margin-bottom: 16px;
+
 }
 
 .mother-subtitle{
@@ -383,16 +389,29 @@ flex-shrink: 0;
 .footer .container{
     display: flex;
     gap: 70px;
+    align-items: center;
 }
 
 .footer-logo{
     width: 183px;
 height: 70px;
 flex-shrink: 0;
+display: block;
 }
 
-.footer-list{
-    display: block;
+.footer-box{
+    display: flex;
+    align-items:center ;
+}
+
+.footer-box::before{
+    content: "";
+    display: flex;
+    align-items: center;
+    width: 2px;
+    height: 153px;
+    background-color: #FFFFFF;
+    margin-right: 70px;
     
 }
 
@@ -404,9 +423,10 @@ font-size: 20px;
 font-weight: 400;
 }
 
-.foter-img{
-    stroke-width: 2px;
-stroke: var(--text-color);
+.footer-img{
+    width: 269px;
+    height: 2px;
+    
 }
 
 .footer-adres{
@@ -422,11 +442,20 @@ font-family: 'Inter';
 font-size: 14px;
 font-weight: 400;
   text-align: center;
+  
 }
 
 .footer-item{
     display: flex;
-     
+     align-items: center;
+
+}
+
+.footer-item:nth-child(2){
+    margin-top: 16px;
+    .footer-img{
+        width: 194px;
+    }
 }
 
  
